@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Model checkpoints (large files — download separately, see README)
+checkpoints/*.pth
+checkpoints/*.pt
+
+# Outputs (keep folder, ignore generated results)
+outputs/*.png
+outputs/*.jpg
+!outputs/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# HuggingFace / torch cache (if accidentally created locally)
+.cache/
