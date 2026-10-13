@@ -111,8 +111,8 @@ clip_sam_project/
 ### 1. Clone & install dependencies
 
 ```bash
-git clone https://github.com/your-username/clip-sam-grounding.git
-cd clip-sam-grounding
+git clone https://github.com/tejaravi1718-collab/CLIP-SAM-zero-shot-grounding.git
+cd CLIP-SAM-zero-shot-grounding
 pip install -r requirements.txt
 ```
 
